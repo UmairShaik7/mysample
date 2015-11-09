@@ -52,7 +52,7 @@ public class FormPost extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 
-		File file = new File("\hello.txt");
+		File file = new File("\\hello.txt");
 		if (!file.exists()) {
 			file.createNewFile();
 		} else {
